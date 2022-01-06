@@ -169,11 +169,19 @@ img {
 
 /* corona-style */
 
+.build-st {
+    width: 300px;
+    height: 400px;
+}
+
+.add-images {
+    position: absolute;
+    width: 100px;
+}
+
 .corona-top1 {
-    background-image: url(images/shapes/shape-3.png);
-    background-size: 150px;
-    background-repeat: no-repeat;
-    background-position: left top;
+    background: url(images/shapes/shape-3.png) left top no-repeat, url(images/shapes/shape-3.png) left bottom 20px no-repeat, url(images/shapes/shape-3.png) right 15px top 250px no-repeat;
+    background-size: 100px, 60px, 60px;
     margin-right: 50px;
 }
 
@@ -191,8 +199,7 @@ img {
 
 .footer {
     height: 80px;
-    width: 78%;
-    margin-left: 10%;
+    width: 100%;
     background-color: black;
 }
 
