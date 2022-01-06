@@ -6,11 +6,13 @@ body {
 
 .focsued {
     display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .item-style {
     width: 50%;
-    padding: 5%;
+    padding: 10%;
 }
 
 img {
@@ -76,6 +78,7 @@ img {
 
 .tag-style {
     text-align: center;
+    margin-top: 0%;
     margin-bottom: 0px;
     font-size: 40px;
 }
@@ -97,4 +100,71 @@ img {
 .my-vission img {
     width: 150px;
     height: 150px;
+}
+
+
+/* my mission end */
+
+.devo-with1 {
+    width: 50%;
+    height: 300px;
+    padding: 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+}
+
+.devo-with2 {
+    width: 50%;
+    height: 300px;
+    padding-top: 8%;
+}
+
+.devo-with2 h1 {
+    font-size: 35px;
+}
+
+.img-tag {
+    text-decoration: none;
+    background-color: rgb(248, 83, 83);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+/* end */
+
+.golbal-sect {
+    padding-top: 10%;
+}
+
+.text-div2 {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+    padding-bottom: 50px;
+}
+
+.text-div1 {
+    padding: 5%;
+}
+
+
+/* text style */
+
+.text-style h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.text-color {
+    font-weight: bold;
+    color: rgb(238, 172, 6);
+}
+
+.minu {
+    height: 500px;
 }
